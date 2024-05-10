@@ -1,0 +1,3 @@
+python main.py --data_path  /home/hk/Downloads/JiaoChen/ADSB/cwru1_X_train.npy --labels_path /home/hk/Downloads/JiaoChen/ADSB/cwru1_y_train.npy --batch_size 64 --num_epochs 10 --device cuda:0
+
+python main.py --data_path '/home/hk/Downloads/JiaoChen/ADSB/cwru1_X_train.npy' --labels_path '/home/hk/Downloads/JiaoChen/ADSB/cwru1_y_train.npy' --batch_size 64 --num_epochs 10 --device 'cuda:1'
